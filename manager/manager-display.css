@@ -1,0 +1,19 @@
+/* CSS for the quiz add/edit form */
+#outcomePlatform, #questionPlatform, .question, .outcome, .outline-div {
+	padding-top:5px;
+	padding-bottom:15px;
+	
+}
+.question, #outcomePlatform, #questionPlatform, .outline-div {
+	border:1px solid;
+	border-color:#1B3409;
+/*	padding-top:5px; */
+	padding-left:5px;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+.question {
+	max-width:80%;
+	border-style:dashed;
+	border-color:#808080;	
+}

@@ -1,0 +1,57 @@
+/*#questionPlatform*/
+.question {
+	clear:left;
+	display:block;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#question0 {
+	padding-top:0px;	
+}
+.question p{
+	clear:left;
+	display:block;
+}
+.question label:after {
+	clear:left;	
+}
+.question label {
+	float:left;
+	display:inline-block;
+	background:#66B032;
+	color:#EBF7E3;
+	padding: 14px 16px;
+	width:100px;
+	margin:2px;
+	text-decoration:none;
+	text-align:center;
+	border-width:2px;
+	border-style:outset;
+	border-color:buttonface;
+	clear:left;	
+
+}
+.question label:active {
+	border-style:inset;
+}
+.question input[type="radio"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+.question input[type="radio"]:checked + label {
+	border-style:inset;	
+}
+.question input[type="radio"]:checked + label,
+	.question input[type="radio"]:hover + label {
+	background:#375F1B;
+}
+.clear-float {
+	clear:left;
+}
+.block {
+	display:block;	
+}

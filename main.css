@@ -1,0 +1,186 @@
+/**/
+#all {
+	width:80%;
+/*	min-height:100%;*/
+	margin:0px;
+	padding:0px;
+	padding-left:10%;
+}
+.header {
+/*	display:table;*/
+/*	width:80%;	
+	position: fixed;
+	top:0;
+	left:10%;*/
+	margin-bottom:-2%;
+}
+.header-image {
+	display:block;
+	float:left;	
+	width:100%;
+	margin:0px;
+	padding:0px;
+	background:#EBF7E3;
+}
+.header-image::after {
+	clear:left;
+	
+}
+.top-menu {
+/*	display:table-row;*/
+/*	position: fixed;
+	top:100;
+	left:0;*/
+	display:inline-block;
+	list-style-type:none;
+	width:100%;
+/*	max-height:5%;*/
+	background:#66B032;
+	padding:0px;
+	margin:0px;
+}
+
+.top-menu li {
+/*	display: inline;*/
+	display:inline-block;
+/*	display:table-cell;*/
+/*	height: 30px;*/
+	width:15%;
+/*	padding: 14px 16px;*/
+}
+
+.top-menu a {
+	display:block;
+	text-decoration:none;
+	color:#EBF7E3;
+	text-align:center;
+/*	height: 100%;*/
+	padding: 14px 16px;
+	
+}
+.top-menu a:hover {
+	background:#375F1B;
+}
+.sign-in {
+	float:right;	
+}
+/* Dropdown */
+.dropdown-content {
+	list-style-type:none;
+	display:none;
+	position:absolute;
+	background:#66B032;
+	padding:0px;
+	margin:0px;
+	max-width:15%;
+}
+.dropdown-content li {
+	display:block;
+	float:none;
+	text-align:center;
+}
+.dropdown-content  a {
+	display:block;
+	text-align:left;
+	width:500%;
+}
+.dropdown:hover .dropdown-content	{
+	display:block;
+	width:100%;
+}
+
+/* the content area */
+#content {
+	clear:both;
+	padding:0px;
+	margin:0px;
+	min-width:80%;
+	max-width:80%;
+	min-height:100%;
+	background:#EBF7E3;
+	color:#1B3409;
+/*	padding-top:23%;	
+	margin-top:5%;
+/*	margin-left:-15px;
+	padding-left:15px;
+	margin-right:-15px;
+	padding-right:15px;*/
+	padding-top:2%;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+p {
+	padding-top:10px;
+	padding-bottom:10px;	
+}
+
+table {
+/*.play-list, .statistics-list {*/
+	width:80%;
+	align:center;
+	border:1px solid;
+	border-color:#1B3409;
+	border-collapse:collapse;
+}
+table td {
+/*.play-list td, .statistics-list td {*/
+	padding:0px;
+	margin:0px;
+}
+table tbody tr:nth-child(odd) {
+/*.play-list tbody tr:nth-child(odd), .statistics-list tbody tr:nth-child(odd) {*/
+	background:#9BD770;
+}
+
+table a {
+/*.play-list a, .statistics-list a {*/
+	display:block;
+	text-decoration:none;
+	color:#1B3409;
+		
+}
+table thead {
+	text-align:center;
+}
+table .link-button {
+	max-width:70%;
+	margin-bottom:2px;
+	margin-top:2px;	
+	margin-left:auto;
+	margin-right:auto;
+}
+.link-button {
+	text-decoration:none;
+	text-align:center;
+	border-width:2px;
+	border-style:outset;
+	border-color:buttonface;
+}
+.link-button:active {
+	border-style:inset;
+}
+input[type="submit"], input[type="button"], .link-button {
+	background:#66B032;
+	color:#EBF7E3;
+	padding: 14px 16px;	
+}
+input[type="submit"]:hover, input[type="button"]:hover, .link-button:hover {
+	background:#375F1B;
+}
+.center {
+	text-align:center;	
+}
+.left {
+	text-align:left;
+}
+.right {
+	text-align:right;
+}
+.inline {
+	display:inline;	
+}
+.spaced-hr {
+	margin-top:15px;
+	margin-bottom:10px;	
+}
